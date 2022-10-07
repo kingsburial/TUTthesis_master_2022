@@ -1,101 +1,73 @@
-## TJUThesisLatexTemplate
+## TUThesisLatexTemplate
  
-Latex template for TJU thesis. Forked from code.google.com/p/tjuthesis.
+Latex template for TUT thesis.
  
-Modified for the new format requirements of the 2016 Master's thesis of Tianjin University.
- 
----
- 
-## ËµÃ÷
- 
-Ìì½ò´óÑ§Ë¶Ê¿Ñ§Î»ÂÛÎÄLaTexÄ£°å¡£
- 
-Ä£°åÔ´×Ô[code.google.com/p/tjuthesis](code.google.com/p/tjuthesis)£¬´Ë°æ±¾¸ù¾Ý¡¶Ìì½ò´óÑ§¹ØÓÚ²©Ê¿¡¢Ë¶Ê¿Ñ§Î»ÂÛÎÄÍ³Ò»¸ñÊ½µÄ¹æ¶¨£¨ÊÔÐÐ°æ£©¡·£¨2016.10.24£©£¬Õë¶Ô**È«ÈÕÖÆ¹¤³ÌË¶Ê¿Ñ§Î»ÂÛÎÄ**¸ñÊ½½øÐÐÐÞ¸Ä¡£
- 
-²©Ê¿ÒÔ¼°ÆäËûÀàÐÍµÄË¶Ê¿Ñ§Î»µÄ·âÃæ¡¢ìéÒ³µÈ²¿·ÖÓÐµãÇø±ð£¬Ï¸½Ú²Î¿¼¡¶Ìì½ò´óÑ§¹ØÓÚ²©Ê¿¡¢Ë¶Ê¿Ñ§Î»ÂÛÎÄÍ³Ò»¸ñÊ½µÄ¹æ¶¨£¨ÊÔÐÐ°æ£©¡·£¬¿É×ÔÐÐÐÞ¸Ä¡£
- 
-²é¿´×îÐÂÑ§Î»ÂÛÎÄ¸ñÊ½¿ÉÒÔ½øÈë[Ìì½ò´óÑ§ÑÐ¾¿ÉúÑ§Î»¹ÜÀíÏµÍ³](http://121.193.130.234:7001/Degree/)£¬²é¿´¡°Ñ§Î»ÂÛÎÄ¸ñÊ½¹æ¶¨¡±ÌõÄ¿ÏÂµÄ×îÐÂ¹Ù·½ÎÄ¼þ¡£
+Modified for the new format requirements of the 2016 Master's thesis of Tianjin University Technology.
  
 ---
  
-## ¸Ä¶¯
+## è¯´æ˜Ž
  
-#### ÑùÊ½ÐÞ¸Ä
+å¤©æ´¥ç†å·¥å¤§å­¦ç¡•å£«å­¦ä½è®ºæ–‡LaTexæ¨¡æ¿ã€‚
  
-+ ìéÒ³ÐÞ¸ÄÎªÈ«ÈÕÖÆ¹¤³ÌË¶Ê¿µÄ¸ñÊ½
-+ ìéÒ³£¬ÂÛÎÄ±êÌâµÄ×ÖÌåÐÞ¸ÄÎªËÎÌå¼Ó´Ö
-+ ÐÞ¸ÄÕýÎÄÐ¡ËÄ×ÖÌåÎª20ptÐÐ¼ä¾à
-+ ÐÞ¸ÄÂÛÎÄÖÐÓ¢ÎÄ±êÌâµÄÐÐ¾àÎª1.25±¶
-+ ÐÞ¸Ä¡°¶À´´ÐÔÉùÃ÷¡±ÓëÏÂÃæµÄ¼äÏ¶£¬ÒÔ¼°Ò»Ð©¸ñÊ½Î¢µ÷
-+ ÐÞ¸Ä¡°Ñ§Î»ÂÛÎÄ°æÈ¨Ê¹ÓÃÊÚÈ¨Êé¡±ÓëÏÂÃæµÄ¼äÏ¶
-+ ÐÞ¸ÄìéÒ³ÏÂÃæ¡°Ñ§Î»ÂÛÎÄ×÷ÕßÇ©Ãû¡±Óë¡°Ç©×ÖÈÕÆÚ¡±µÄËõ½ø
-+ ÐÞ¸ÄÎÄµµ¸ñÊ½£¬ÕÂ½Ú½ö´ÓÆæÊýÒ³¿ªÊ¼
-+ ÐÞ¸ÄÕýÎÄ×Ö¼ä¾à£¬Ã¿ÐÐ´ó¸ÅÎª35¸öÖÐÎÄ×Ö·û
-+ ÐÞ¸ÄÁËÄ¿Â¼¸ñÊ½
-+ ÐÞ¸ÄÁË¸÷¼¶±êÌâµÄ¶ÎÇ°¶Îºó¼ä¾à
-+ ²Î¿¼ÎÄÏ×bibÖÐµÄÖÐÎÄÎÄÏ×ÐèÒª×¢Òâ¼ÓÉÏlanguageÌõÄ¿£¨·Ç¿Õ¾Í¿ÉÒÔ£¬²»È»ÖÐÎÄ²Î¿¼ÎÄÏ×µÄ¸ñÊ½»á²»ÕýÈ·£©
-+ ÐÞ¸ÄdocumentclassÎªÕý·´Ãæ£¬ÕÂ½Ú´ÓÆæÊýÒ³¿ªÊ¼
-+ ¶À´´ÐÔÉùÃ÷¡¢Ä¿Â¼¡¢ÕªÒª¶¼ÐÞ¸ÄÎª´ÓÆæÊýÒ³¿ªÊ¼
-+ ÐÞ¸ÄÒ³±ß¾à£ºÉÏ£º27.5mm£»ÏÂ25.4mm£»×ó£º35.7mm£»ÓÒ£º27.7mm¡£Ò³Ã¼¾à±ß½ç15.0mm£»Ò³½Å¾à±ß½ç17.5mm
-+ ²Î¿¼ÎÄÏ××ÖÌåÐÞ¸ÄÎªÐ¡ËÄ
-+ ²Î¿¼ÎÄÏ×Ó¢ÎÄÖÐµÄet alÐÞ¸ÄÎª·ÇÐ±Ìå
+æ¨¡æ¿æºè‡ª[https://github.com/jiangqideng/tjuthesis_master_2016]ï¼Œæ­¤ç‰ˆæœ¬æ ¹æ®ã€Šæ´¥ç†å·¥ç ”ç©¶ç”Ÿé™¢ã€”2019ã€•1å· å¤©æ´¥ç†å·¥å¤§å­¦å…³äºŽåšå£«ã€ç¡•å£«å­¦ä½è®ºæ–‡ç»Ÿä¸€æ ¼å¼çš„è§„å®šã€‹ï¼ˆ2019.5.31ï¼‰ï¼Œé’ˆå¯¹**å…¨æ—¥åˆ¶å·¥ç¨‹ç¡•å£«å­¦ä½è®ºæ–‡**æ ¼å¼è¿›è¡Œä¿®æ”¹ã€‚
  
-#### ×î½ü¸üÐÂ
- 
-+ 2016.11.11£º´Ó[Ìì½ò´óÑ§Ñ§Î»¹ÜÀíÏµÍ³](http://121.193.130.234:7001/Degree/)ÏÂÔØÁË¹Ù·½µÄ¸ñÊ½¹æ¶¨ÎÄµµ£¨²Î¿¼ÎÄÏ×¸ñÊ½¹æ¶¨µÄÆðÖ¹Ò³Âë¼äµÄ·ûºÅÎª¡°-¡±£¬¶øÐÅÏ¢Ñ§Ôº×ª·¢µÄÎÄµµÖÐµÄ·ûºÅÎª¡°~¡±£©¡£
- 
-+ 2016.11.12£º¸ñÊ½¹æ¶¨ÎÄµµ¸üÐÂÁË£¬Ñ§ÔººÍÑÐ¾¿ÉúÔºµÄÒ²Í³Ò»ÁË¡£Çø±ð£º¡°ÖÐÎÄÕªÒª¡±¸Ä»Ø¡°ÕªÒª¡±¶þ×Ö£»Ä¿Â¼Éî¶ÈÐÞ¸Ä£¬¸Ä»Øµ½°üÀ¨ÕÂ±êÌâÔÚÄÚµÄÈý¼¶±êÌâ£»²Î¿¼ÎÄÏ×¸ñÊ½¹æ¶¨µÄÆðÖ¹Ò³Âë¼äµÄ·ûºÅÎª¡°~¡±£»µÚ¼¸ÕÂÊ¹ÓÃ°¢À­²®Êý×Ö£¬±ÈÈç¡°µÚÒ»ÕÂ¡±¸ÄÎª¡°µÚ1ÕÂ¡±¡£
-
-+ 2016.11.29£º¶À´´ÐÔÉùÃ÷Ò³µÄ¡°Ìì½ò´óÑ§¡±ËÄ×ÖµÄ×ÖºÅÐÞ¸ÄÎªËÄºÅ¡£
+åšå£«ä»¥åŠå…¶ä»–ç±»åž‹çš„ç¡•å£«å­¦ä½çš„å°é¢ã€æ‰‰é¡µç­‰éƒ¨åˆ†æœ‰ç‚¹åŒºåˆ«ï¼Œç»†èŠ‚å‚è€ƒå¤©æ´¥ç†å·¥å¤§å­¦ç ”ç©¶ç”Ÿé™¢ä¸Šåšå£«æ ¼å¼è®ºæ–‡ä¿®æ”¹ã€‚
  
 ---
  
-## ÈçºÎÊ¹ÓÃ
+## æ”¹åŠ¨
  
-#### LaTex»ù´¡
+#### æ ·å¼ä¿®æ”¹
  
-[Ò»·Ý²»Ì«¼ò¶ÌµÄ LaTeX ½éÉÜ](http://www.latexstudio.net/archives/6058)
++ ä¿®æ”¹å­—å·å’Œå­—ä½“
+ 
+## å¦‚ä½•ä½¿ç”¨
+ 
+#### LaTexåŸºç¡€
+ 
+[ä¸€ä»½ä¸å¤ªç®€çŸ­çš„ LaTeX ä»‹ç»](http://www.latexstudio.net/archives/6058)
  
 [Documentation](http://www.latex-project.org/help/documentation/)
  
 [Documentation - ShareLaTeX](https://www.sharelatex.com/learn)
  
-#### ´Ó¾É°æ±¾¸üÐÂµ½´Ë°æ±¾
+#### ä»Žæ—§ç‰ˆæœ¬æ›´æ–°åˆ°æ­¤ç‰ˆæœ¬
  
-Èç¹ûÒÑ¾­Ê¹ÓÃÁËÖ®Ç°µÄlatexÄ£°å£¬¿ÉÒÔÍ¨¹ýÌæ»»µô¾É°æ±¾µÄ²¿·ÖÎÄ¼þ¸üÐÂÎª´Ë°æ±¾µÄ¸ñÊ½£¬²½ÖèÈçÏÂ£º
+å¦‚æžœå·²ç»ä½¿ç”¨äº†ä¹‹å‰çš„latexæ¨¡æ¿ï¼Œå¯ä»¥é€šè¿‡æ›¿æ¢æŽ‰æ—§ç‰ˆæœ¬çš„éƒ¨åˆ†æ–‡ä»¶æ›´æ–°ä¸ºæ­¤ç‰ˆæœ¬çš„æ ¼å¼ï¼Œæ­¥éª¤å¦‚ä¸‹ï¼š
  
-1. Ê¹ÓÃ´Ë°æ±¾ÏÂµÄÒÔÏÂÎÄ¼þÌæ»»£¨¸²¸Ç£©¾É°æ±¾µÄÍ¬ÃûÎÄ¼þ£º
+1. ä½¿ç”¨æ­¤ç‰ˆæœ¬ä¸‹çš„ä»¥ä¸‹æ–‡ä»¶æ›¿æ¢ï¼ˆè¦†ç›–ï¼‰æ—§ç‰ˆæœ¬çš„åŒåæ–‡ä»¶ï¼š
  
     + ./TJUThesis.bst
     + ./setup/format.tex
     + ./setup/package.tex
  
-2. ÐÞ¸ÄÎÄ¼þ./tjumain.tex
+2. ä¿®æ”¹æ–‡ä»¶./tjumain.tex
  
-    ¸´ÖÆ¾É°æ±¾./tjumain.texÖÐÕýÎÄ²¿·ÖµÄ¶à¸ö`\include{body/yourchapter}`£¨µ±Ç°ÂÛÎÄµÄ¸÷¸öÕÂ½Ú£©£¬·Ö±ðÌîÈë´Ë°æ±¾./tjumain.texµÄÏàÓ¦Î»ÖÃ£¬È»ºóÌæ»»¾É°æ±¾µÄ./tjumain.tex¡££¨ÈçÓÐÐèÒª¿ÉÒÔ×¢ÊÍµô47ÐÐ£º`\nocite{*}`£©
+    å¤åˆ¶æ—§ç‰ˆæœ¬./tjumain.texä¸­æ­£æ–‡éƒ¨åˆ†çš„å¤šä¸ª`\include{body/yourchapter}`ï¼ˆå½“å‰è®ºæ–‡çš„å„ä¸ªç« èŠ‚ï¼‰ï¼Œåˆ†åˆ«å¡«å…¥æ­¤ç‰ˆæœ¬./tjumain.texçš„ç›¸åº”ä½ç½®ï¼Œç„¶åŽæ›¿æ¢æ—§ç‰ˆæœ¬çš„./tjumain.texã€‚ï¼ˆå¦‚æœ‰éœ€è¦å¯ä»¥æ³¨é‡ŠæŽ‰47è¡Œï¼š`\nocite{*}`ï¼‰
  
-3. ÐÞ¸ÄÎÄ¼þ./preface./cover.tex
+3. ä¿®æ”¹æ–‡ä»¶./preface./cover.tex
  
-    ½«¾É°æ±¾ÖÐÎÄ¼þ./preface./cover.texµÄ¸÷ÏîÄ¿£¨±êÌâ¡¢ÐÕÃû¡¢ÕªÒª...£©ÒÀ´ÎÌîÈë´Ë°æ±¾µÄÍ¬ÃûÎÄ¼þµÄÏàÓ¦Î»ÖÃ£¬È»ºóÌæ»»¾É°æ±¾µÄ./preface./cover.tex¡££¨·Ç¹¤³ÌË¶Ê¿×ÔÐÐÐÞ¸Ä£©
+    å°†æ—§ç‰ˆæœ¬ä¸­æ–‡ä»¶./preface./cover.texçš„å„é¡¹ç›®ï¼ˆæ ‡é¢˜ã€å§“åã€æ‘˜è¦...ï¼‰ä¾æ¬¡å¡«å…¥æ­¤ç‰ˆæœ¬çš„åŒåæ–‡ä»¶çš„ç›¸åº”ä½ç½®ï¼Œç„¶åŽæ›¿æ¢æ—§ç‰ˆæœ¬çš„./preface./cover.texã€‚ï¼ˆéžå·¥ç¨‹ç¡•å£«è‡ªè¡Œä¿®æ”¹ï¼‰
  
-4. ÖØÐÂ±àÒë¡£
+4. é‡æ–°ç¼–è¯‘ã€‚
  
-#### ×Ô¶¨ÒåÐÞ¸ÄÑùÊ½
+#### è‡ªå®šä¹‰ä¿®æ”¹æ ·å¼
  
-ÓÉÓÚÎÄµµÖÐÓÐÐ©¸ñÊ½²¢Ã»ÓÐÑÏ¸ñÒªÇó»òÕßÓÐ²»Í¬µÄÀí½â£¬ÈçÐè¸ü¸ÄÑùÊ½£¬¿ÉÒÔ²Î¿¼ÕâÀï¸ø³öµÄÒ»Ð©ÌáÊ¾£º
+ç”±äºŽæ–‡æ¡£ä¸­æœ‰äº›æ ¼å¼å¹¶æ²¡æœ‰ä¸¥æ ¼è¦æ±‚æˆ–è€…æœ‰ä¸åŒçš„ç†è§£ï¼Œå¦‚éœ€æ›´æ”¹æ ·å¼ï¼Œå¯ä»¥å‚è€ƒè¿™é‡Œç»™å‡ºçš„ä¸€äº›æç¤ºï¼š
  
-+ ÎÄµµÒªÇó¡±Ë«Ãæ´òÓ¡£¬ÇÒ¸÷ÕÂ½Ú´ÓÆæÊýÒ³¿ªÊ¼¡°¡£´Ë°æ±¾µÄÕªÒª¡¢·âÃæ¡¢ìéÒ³µÈ¶¼´ÓÆæÊýÒ³¿ªÊ¼£¬ÈçÓÐ¿Õ°×µÄÅ¼ÊýÒ³£¬Ò³Ã¼Ò³½ÅÉèÖÃÎª¿Õ¡£Ö÷ÒªÉæ¼°ÒÔÏÂ´úÂë£º
++ æ–‡æ¡£è¦æ±‚â€åŒé¢æ‰“å°ï¼Œä¸”å„ç« èŠ‚ä»Žå¥‡æ•°é¡µå¼€å§‹â€œã€‚æ­¤ç‰ˆæœ¬çš„æ‘˜è¦ã€å°é¢ã€æ‰‰é¡µç­‰éƒ½ä»Žå¥‡æ•°é¡µå¼€å§‹ï¼Œå¦‚æœ‰ç©ºç™½çš„å¶æ•°é¡µï¼Œé¡µçœ‰é¡µè„šè®¾ç½®ä¸ºç©ºã€‚ä¸»è¦æ¶‰åŠä»¥ä¸‹ä»£ç ï¼š
     - `\documentclass[12pt,openright,twoside]{book}`
     - `\clearpage{\pagestyle{empty}\cleardoublepage}`
  
-+ Ä¿Â¼Ò³µÄÒ³Ã¼Ò³½ÅÓÐµãÂé·³£¬Ã²ËÆ¸ñÊ½ÒªÇóÊÇÃ»ÓÐÒ³Ã¼È»ºóÂÞÂíÊý×ÖµÄÒ³Âë¡£Ö÷ÒªÉæ¼°ÒÔÏÂ´úÂë£º
++ ç›®å½•é¡µçš„é¡µçœ‰é¡µè„šæœ‰ç‚¹éº»çƒ¦ï¼Œè²Œä¼¼æ ¼å¼è¦æ±‚æ˜¯æ²¡æœ‰é¡µçœ‰ç„¶åŽç½—é©¬æ•°å­—çš„é¡µç ã€‚ä¸»è¦æ¶‰åŠä»¥ä¸‹ä»£ç ï¼š
     - `\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{only_foot}}}`
     - `\pagestyle{only_foot}`
     - `\tableofcontents`
     - `\thispagestyle{only_foot}`
  
-+ ²Î¿¼ÎÄÏ×Õâ´ÎÒªÇóÊÇGB/T 7714-2005£¨´Ë°æ±¾ÒÑÐÞ¸ÄÎª·ÇÐ±ÌåµÄet al£©£¬ÐèÒª×¢ÒâµÄÊÇÖÐÎÄ²Î¿¼ÎÄÏ×£¬google scholarÖÐµÄÖÐÎÄ²Î¿¼ÎÄÏ×µÄbibTex´ó¶àÃ»ÓÐlanguageÌõÄ¿£¬¶ølatexÖÐ¸ù¾ÝlanguageÌõÄ¿ÊÇ·ñ·Ç¿ÕÀ´ÅÐ¶ÏÔö¼Ó¡° £¬µÈ ¡±»òÕß¡° ,et al ¡±£¬Òò´Ë£¬ÐèÒªÔÚ²Î¿¼ÎÄÏ×bibÎÄ¼þÖÐµÄËùÓÐÖÐÎÄÎÄÏ×ÖÐÔö¼Ó"language={not_empty}"
++ å‚è€ƒæ–‡çŒ®è¿™æ¬¡è¦æ±‚æ˜¯GB/T 7714-2005ï¼ˆæ­¤ç‰ˆæœ¬å·²ä¿®æ”¹ä¸ºéžæ–œä½“çš„et alï¼‰ï¼Œéœ€è¦æ³¨æ„çš„æ˜¯ä¸­æ–‡å‚è€ƒæ–‡çŒ®ï¼Œgoogle scholarä¸­çš„ä¸­æ–‡å‚è€ƒæ–‡çŒ®çš„bibTexå¤§å¤šæ²¡æœ‰languageæ¡ç›®ï¼Œè€Œlatexä¸­æ ¹æ®languageæ¡ç›®æ˜¯å¦éžç©ºæ¥åˆ¤æ–­å¢žåŠ â€œ ï¼Œç­‰ â€æˆ–è€…â€œ ,et al â€ï¼Œå› æ­¤ï¼Œéœ€è¦åœ¨å‚è€ƒæ–‡çŒ®bibæ–‡ä»¶ä¸­çš„æ‰€æœ‰ä¸­æ–‡æ–‡çŒ®ä¸­å¢žåŠ "language={not_empty}"
  
-+ ¸ñÊ½ÒªÇóÍ¼Æ¬ÓëÕýÎÄµÄ¼ä¸ôÊÇÒ»ÐÐ£¬µ«ÊÇ´ËÄ£°åÖÐµÄËùÓÐÍ¼Æ¬ÄÚÈÝ¶¼ÔÚ`\end{figure}`ÉÏÍ¨¹ý`\vspace{\baselineskip}`¶îÍâÔö¼ÓÁËÒ»ÐÐµÄ¿ÕÏ¶£¬¿ÉÒÔ¿¼ÂÇÈ¥µôÕâÒ»ÐÐ¡£
++ æ ¼å¼è¦æ±‚å›¾ç‰‡ä¸Žæ­£æ–‡çš„é—´éš”æ˜¯ä¸€è¡Œï¼Œä½†æ˜¯æ­¤æ¨¡æ¿ä¸­çš„æ‰€æœ‰å›¾ç‰‡å†…å®¹éƒ½åœ¨`\end{figure}`ä¸Šé€šè¿‡`\vspace{\baselineskip}`é¢å¤–å¢žåŠ äº†ä¸€è¡Œçš„ç©ºéš™ï¼Œå¯ä»¥è€ƒè™‘åŽ»æŽ‰è¿™ä¸€è¡Œã€‚
  
  
