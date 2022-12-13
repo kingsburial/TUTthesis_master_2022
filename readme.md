@@ -10,7 +10,8 @@ Modified for the new format requirements of the 2016 Master's thesis of Tianjin 
  
 天津理工大学硕士学位论文LaTex模板。
  
-模板源自[https://github.com/jiangqideng/tjuthesis_master_2016]，此版本根据《津理工研究生院〔2019〕1号 天津理工大学关于博士、硕士学位论文统一格式的规定》（2019.5.31），针对**全日制工程硕士学位论文**格式进行修改。
+模板源自[https://github.com/jiangqideng/tjuthesis_master_2016] 
+此版本根据《津理工研究生院〔2019〕1号天津理工大学关于博士、硕士学位论文统一格式的规定》（2019.5.31），针对**全日制工程硕士学位论文**格式进行修改。
  
 博士以及其他类型的硕士学位的封面、扉页等部分有点区别，细节参考天津理工大学研究生院上博士格式论文修改。
  
